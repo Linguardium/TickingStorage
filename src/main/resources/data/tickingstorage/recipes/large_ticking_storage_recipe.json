@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [ "##","##" ],
+    "key": {
+        "#": {
+            "item": "tickingstorage:ticking_medium_barrel"
+        }
+    },
+    "result": {
+        "item": "tickingstorage:ticking_large_barrel",
+        "count": 1
+    }
+}

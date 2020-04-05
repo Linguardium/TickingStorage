@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#RJ",
+        "JRB",
+        "L  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "R": {
+            "item": "minecraft:repeater"
+        },
+        "J": {
+            "item": "minecraft:redstone"
+        },
+        "B": {
+            "item": "minecraft:barrel"
+        },
+        "L": {
+            "item": "minecraft:lever"
+        }
+    },
+    "result": {
+        "item": "tickingstorage:ticking_barrel",
+        "count": 1
+    }
+}

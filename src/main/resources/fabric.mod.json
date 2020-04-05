@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tickingstorage",
+  "version": "${version}",
+  "name": "Ticking Storage",
+  "description": "a chest that ticks your items for you",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tickingstorage/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.linguardium.tickingstorage.TickingStorage"
+    ],
+    "client": [
+      "mod.linguardium.tickingstorage.TickingStorageClient"
+    ],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*",
+    "libgui": ">=1.8.0"
+  }
+}

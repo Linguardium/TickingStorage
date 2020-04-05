@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "tickingstorage:block/ticking_small_barrel" }
+  }
+}
